@@ -2,37 +2,204 @@
 
 body {
     background-color: #FCF8EA;
+    font-size: 18px;
 }
 
+h1 {
+    font-size: 64px;
+    color: #fff;
+}
+
+.full {
+    color: #006442;
+}
+
+ h2, h3, h4, h5, h6 {
+    color: #006442;
+}
+
+.quote {
+    color: #006442;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 500;
+}
+
+button {
+    background-color: #006442;
+    border: 5px white solid;
+    color: #fff;
+    padding: 10px 40px;
+}
+
+.container-fluid {
+    width: 100vw;
+    padding: 0 !important;
+}
 
 /* Hero */
 #hero {
-    height: 50vh;
+    height: 75vh;
     width: 100vw;
     background-image: url('./images/tall_grass_sunset_AdobeStock_240697095.jpg');
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
+    
 }
 
-.logo {
-    position: absolute;   
-    top: 50%;
-    left:50%;
-    -ms-transform: translate(-50%);
-    transform: translate(-50%);
-    display: block;   
+.hero-items {
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    margin-top: 15vh
 }
 
-.apply-button {
-    margin-left: 50%;
-    -ms-transform: translate(-50%);
-    transform: translate(-50%);
+.logo .apply {
+    display: flex;
+    justify-content: center;
+}
+
+/* nav */
+.navbar {
+    background: rgb(0,100,66);
+background: linear-gradient(180deg, rgba(0,100,66,1) 60%, rgba(252,248,234,0) 60%);
+}
+
+.nav-elements {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    margin:15px
+}
+
+.nav-list li a{
+    padding: 20px 20px;
+    font-size: 24px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-list li a:hover{
+    border-top: 5px #a08629 solid;
+    color: #a08629;
 }
 
 
-
-/* sectoms */
+/* sectionss */
 .who-we-are {
     text-align: center;
+    font-size: 24px;
+    margin: 40px 0;
+}
+
+.our-culture .image-left {
+    padding-left: 0!important;
+}
+
+.culture-text {
+    display: flex;
+    align-items: center;
+}
+
+.culture-text .content .quote {
+    margin-top: 20px;
+}
+
+.testimonials {
+    background: rgb(0,100,66);
+    background: linear-gradient(180deg, rgba(0,100,66,1) 57%, rgba(252,248,234,1) 57%);
+    padding: 40px 0;
+    text-align: center;
+}
+
+.testimonials h2 {
+    color: #fff;
+}
+.videos {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+
+.career {
+    text-align: center;
+}
+
+.icon-row {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.icon {
+    font-size: 64px;
+    height: 150px;
+    width: 150px;
+    background-color: #006442;
+    color: #fff;
+    border: 5px #fff solid ;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.career .background-stripe {
+    background-image: url("./images/G200357_EMRD_aerial_0608_02_1_pw21jy.jpg");
+    height: 50vh;
+    display: flex;
+    margin-top: 40px;
+}
+
+.career .background-stripe .row {
+  /* height: inherit; */
+  align-self: flex-end;
+}
+
+.career .quote {
+    color: #fff;
+}
+
+.benefits {
+    margin-top: 40px;
+}
+
+.benefits-row {
+    display: flex;
+    height: inherit;
+    align-items: center;
+}
+
+.map {
+    background-image: url('./images/map.jpg');
+    background-repeat: no-repeat;
+    height: 700px;
+}
+
+.quote-stripe {
+    background-color: #006442;
+}
+
+.quote-stripe .quote {
+    color: #fff;
+    text-align: center;
+}
+
+.quote-stripe .image-left {
+    padding-left: 0;
+}
+
+.apply-bottom {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0
+}
+
+footer{
+    padding:40px  0;
 }

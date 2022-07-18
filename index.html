@@ -12,47 +12,42 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://file.myfontastic.com/fNzH493MAHeKjRe2pjuifJ/icons.css"
+      rel="stylesheet"
+    />
     <title>Touchmark Careers</title>
   </head>
   <body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg bg-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-link active" aria-current="page" href="index.html"
-              >Home</a
-            >
-            <a class="nav-link" href="#">Volunteer</a>
-            <a class="nav-link" href="#">Management & Development</a>
-            <a class="nav-link" href="#">Apply Now</a>
-          </div>
-        </div>
-      </div>
-    </nav>
+    <div class="container-fluid"></div>
+    
 
     <!-- Hero -->
     <div id="hero" class="hero">
-      <div class="logo">
-        <h1>THE <span>{FULL}</span> LIFE</h1>
-        <button class="apply-button">Apply Now</button>
+      <!-- Navbar -->
+    <div class="row navbar">
+      <div class="col-8 offset-2 nav-elements">
+          <img src="./images/logo.png" alt="Touchmark Logo" />
+          <ul class="nav-list">
+            <li><a href="volunteer.html">Volunteer</a></li>
+            <li><a href="management.html">Management & Development</a></li>
+            <li><a href="#">Apply Now</a></li>
+          </ul>
+      </div>
+    </div>
+    
+      <div class="hero-items">
+
+        <div class="logo">
+          <h1>THE <span class="full">{FULL}</span> LIFE</h1>
+          <div class="apply">
+            <button class="apply-button">Apply Now</button>
+          </div>
+        </div>
       </div>
     </div>
 
     <!-- Container -->
-    <div class="container-fluid">
       <div class="row who-we-are">
         <div class="col-8 offset-2">
           <h2>Who We Are</h2>
@@ -66,69 +61,67 @@
       </div>
       <!-- Culture -->
       <div class="row our-culture">
-        <div class="col-6">
-          <img src="https://www.placecage.com/g/800/400" alt="" />
-        </div>
-        <div class="col-4">
-          <h2>Our Culture</h2>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque
-            velit quisquam quaerat libero officia eos nemo id corrupti dolores.
-            Consequatur soluta similique velit, ea doloribus beatae consectetur
-            voluptas ducimus ullam.Lorem ipsum, dolor sit amet consectetur
-            adipisicing elit. Doloremque velit quisquam quaerat libero officia
-            eos nemo id corrupti dolores. Consequatur soluta similique velit, ea
-            doloribus beatae consectetur voluptas ducimus ullam.
-          </p>
-          <button>Learn More</button>
-          <p class="quote">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
-            dolore expedita accusamus quod voluptatem fugiat animi accusantium.
-            Consequatur nobis harum eius eligendi saepe! Eligendi fuga ut
-            doloremque tenetur molestias ad.
-          </p>
+        <div class="col-6 image-left">
+          <img src="https://assets.entrepreneur.com/content/3x2/1300/20170320212039-GettyImages-557475833.jpeg" class="img-fluid" alt="Responsive image">        </div>
+        <div class="col-4 culture-text">
+          <div class="content">
+            <h2>Our Culture</h2>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque
+              velit quisquam quaerat libero officia eos nemo id corrupti dolores.
+              Consequatur soluta similique velit, ea doloribus beatae consectetur
+              voluptas ducimus ullam.Lorem ipsum, dolor sit amet consectetur
+              adipisicing elit. Doloremque velit quisquam quaerat libero officia
+              eos nemo id corrupti dolores. Consequatur soluta similique velit, ea
+              doloribus beatae consectetur voluptas ducimus ullam.
+            </p>
+            <button>Learn More</button>
+            <div class="row">
+              <div class="col-10 offset-2">
+                <p class="quote">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Voluptas dolore expedita accusamus quod voluptatem fugiat animi
+                  accusantium. Consequatur nobis harum eius eligendi saepe!
+                  Eligendi fuga ut doloremque tenetur molestias ad.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <!-- Testimonials -->
       <div class="testimonials">
         <div class="row">
-          \
-          <div class="col"><h2>testimonials</h2></div>
+          <div class="col"><h2>Testimonials</h2></div>
         </div>
-        <div class="row">
-          <div class="col-3">
-            <iframe
-              width="560"
-              height="315"
-              src="https://www.youtube.com/embed/brhEzua_l3U"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
-          </div>
-          <div class="col-3">
-            <iframe
-              width="560"
-              height="315"
-              src="https://www.youtube.com/embed/brhEzua_l3U"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
-          </div>
-          <div class="col-3">
-            <iframe
-              width="560"
-              height="315"
-              src="https://www.youtube.com/embed/brhEzua_l3U"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
-          </div>
+        <div class="videos">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/9nJCZjedOHE"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/brhEzua_l3U"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/9fQjp_tUmxk"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
         </div>
         <div class="row">
           <div class="col-6 offset-3">
@@ -146,24 +139,39 @@
         <div class="row">
           <div class="col"><h2>Career Paths</h2></div>
         </div>
-        <div class="row">
-          <div class="col"></div>
+        <div class="row m-4">
+          <div class="col-8 offset-2 icon-row">
+            <div class="icon-heart icon"></div>
+            <div class="icon-key icon"></div>
+            <div class="icon-settings icon"></div>
+            <div class="icon-display icon"></div>
+          </div>
         </div>
-        <div class="row img-stripe">
-          <div class="col">
-            <p class="quote">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
-              dolore expedita accusamus quod voluptatem fugiat animi
-              accusantium. Consequatur nobis harum eius eligendi saepe! Eligendi
-              fuga ut doloremque tenetur molestias ad.
-            </p>
+        <div class="row">
+          <div class="col-8 offset-2 icon-row">
+            <div class="icon-search icon"></div>
+            <div class="icon-news icon"></div>
+            <div class="icon-bubble icon"></div>
+            <div class="icon-paperplane icon"></div>
+          </div>
+        </div>
+        <div class="background-stripe">
+          <div class="row img-stripe">
+            <div class="quote-block col-4 offset-6">
+              <p class="quote">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptas dolore expedita accusamus quod voluptatem fugiat animi
+                accusantium. Consequatur nobis harum eius eligendi saepe!
+                Eligendi fuga ut doloremque tenetur molestias ad.
+              </p>
+            </div>
           </div>
         </div>
       </div>
       <!-- benefits -->
       <div class="benefits">
-        <div class="row">
-          <div class="col-4 offset-2">
+        <div class="row benefits-row">
+          <div class="col-4 offset-2 benefits-text">
             <h2>Benefits</h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus
@@ -178,7 +186,7 @@
             <button>Learn More</button>
           </div>
           <div class="col-6">
-            <img src="https://www.placecage.com/g/800/400" alt="" />
+            <img src="https://environics.ca/wp-content/uploads/2020/09/Industry-Workplace-Culture-feature.jpg" class="img-fluid" alt="Responsive image">        </div>
           </div>
         </div>
       </div>
@@ -193,10 +201,10 @@
       <!-- quote stripe -->
       <div class="quote-stripe">
         <div class="row">
-          <div class="col-3">
+          <div class="col-3 image-left">
             <img src="https://www.placecage.com/400/300" alt="" />
           </div>
-          <div class="col-5">
+          <div class="col-5 offset-2 m-auto">
             <p class="quote">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
               dolore expedita accusamus quod voluptatem fugiat animi
@@ -206,13 +214,13 @@
           </div>
         </div>
       </div>
-      <!-- soclail -->
+      <!-- social -->
       <div class="social">
         <div class="row">
           <div class="col-8 offset-2"></div>
         </div>
         <div class="row">
-          <div class="col">
+          <div class="col apply-bottom">
             <button>Apply Now</button>
           </div>
         </div>
