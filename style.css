@@ -74,7 +74,8 @@ background: linear-gradient(180deg, rgba(0,100,66,1) 60%, rgba(252,248,234,0) 60
 .nav-list {
     display: flex;
     list-style: none;
-    margin:15px
+    margin:15px;
+    text-transform: uppercase;
 }
 
 .nav-list li a{
@@ -202,4 +203,19 @@ background: linear-gradient(180deg, rgba(0,100,66,1) 60%, rgba(252,248,234,0) 60
 
 footer{
     padding:40px  0;
+}
+
+footer .phone {
+    font-weight: 500;
+}
+
+footer a {
+    color: #006442;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #a08629;
+    text-decoration: underline;
 }
