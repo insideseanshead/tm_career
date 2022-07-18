@@ -1,0 +1,38 @@
+/* Body */
+
+body {
+    background-color: #FCF8EA;
+}
+
+
+/* Hero */
+#hero {
+    height: 50vh;
+    width: 100vw;
+    background-image: url('./images/tall_grass_sunset_AdobeStock_240697095.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+.logo {
+    position: absolute;   
+    top: 50%;
+    left:50%;
+    -ms-transform: translate(-50%);
+    transform: translate(-50%);
+    display: block;   
+}
+
+.apply-button {
+    margin-left: 50%;
+    -ms-transform: translate(-50%);
+    transform: translate(-50%);
+}
+
+
+
+/* sectoms */
+.who-we-are {
+    text-align: center;
+}
