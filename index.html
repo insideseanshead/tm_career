@@ -16,6 +16,7 @@
       href="https://file.myfontastic.com/fNzH493MAHeKjRe2pjuifJ/icons.css"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://use.typekit.net/euh7jtx.css">
     <title>Touchmark Careers</title>
   </head>
   <body>
@@ -141,20 +142,95 @@
         </div>
         <div class="row m-4">
           <div class="col-8 offset-2 icon-row">
-            <div class="icon-heart icon"></div>
-            <div class="icon-key icon"></div>
+            <!-- Icon button -->
+            <div class="career-choice">
+              <div class="icon-heart icon" data-bs-toggle="modal" data-bs-target="#exampleModal" ></div>
+              <h4>Title</h4>
+            </div>
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem ratione inventore quibusdam dolor harum sapiente voluptate incidunt pariatur esse, earum, iste tempore laudantium quas omnis quidem, voluptas eum non magnam?
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Icon button -->
+            <div class="career-choice">
+              <div class="icon-key icon" data-bs-toggle="modal" data-bs-target="#exampleModal" ></div>
+              <h4>Title</h4>
+            </div>
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem ratione inventore quibusdam dolor harum sapiente voluptate incidunt pariatur esse, earum, iste tempore laudantium quas omnis quidem, voluptas eum non magnam?
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Icon button -->
+            <div class="career-choice">
+              <div class="icon-settings icon" data-bs-toggle="modal" data-bs-target="#exampleModal" ></div>
+              <h4>Title</h4>
+            </div>
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem ratione inventore quibusdam dolor harum sapiente voluptate incidunt pariatur esse, earum, iste tempore laudantium quas omnis quidem, voluptas eum non magnam?
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Icon button -->
+            <div class="career-choice">
+              <div class="icon-display icon" data-bs-toggle="modal" data-bs-target="#exampleModal" ></div>
+              <h4>Title</h4>
+            </div>
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem ratione inventore quibusdam dolor harum sapiente voluptate incidunt pariatur esse, earum, iste tempore laudantium quas omnis quidem, voluptas eum non magnam?
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- <div class="icon-key icon"></div>
             <div class="icon-settings icon"></div>
-            <div class="icon-display icon"></div>
+            <div class="icon-display icon"></div> -->
           </div>
         </div>
-        <div class="row">
+        <!-- <div class="row">
           <div class="col-8 offset-2 icon-row">
             <div class="icon-search icon"></div>
             <div class="icon-news icon"></div>
             <div class="icon-bubble icon"></div>
             <div class="icon-paperplane icon"></div>
           </div>
-        </div>
+        </div> -->
         <div class="background-stripe">
           <div class="row img-stripe">
             <div class="quote-block col-4 offset-6">
@@ -251,6 +327,13 @@
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
       crossorigin="anonymous"
-    ></script>
+    >
+    const myModal = document.getElementById('myModal')
+    const myInput = document.getElementById('myInput')
+
+    myModal.addEventListener('shown.bs.modal', () => {
+      myInput.focus()
+    })
+  </script>
   </body>
 </html>

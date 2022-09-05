@@ -2,6 +2,7 @@
 
 body {
     background-color: #FCF8EA;
+    font-family: proxima-nova;
     font-size: 18px;
 }
 
@@ -15,6 +16,7 @@ h1 {
 }
 
  h2, h3, h4, h5, h6 {
+    font-family: eb-garamond, serif;
     color: #006442;
 }
 
@@ -62,8 +64,8 @@ button {
 
 /* nav */
 .navbar {
-    background: rgb(0,100,66);
-background: linear-gradient(180deg, rgba(0,100,66,1) 60%, rgba(252,248,234,0) 60%);
+    /* background: #000; */
+    background: linear-gradient(180deg, rgb(0, 0, 0) 50%, rgba(252,248,234,0) 50%);
 }
 
 .nav-elements {
@@ -148,6 +150,28 @@ background: linear-gradient(180deg, rgba(0,100,66,1) 60%, rgba(252,248,234,0) 60
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 10px;
+    -webkit-transition: background-color 0.5s ease-out;
+  -moz-transition: background-color 0.5s ease-out;
+  -o-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+}
+
+.career-choice h4 {
+    color:transparent;
+    -webkit-transition: color 0.5s ease-out;
+  -moz-transition: color 0.5s ease-out;
+  -o-transition: color 0.5s ease-out;
+  transition: color 0.5s ease-out;
+}
+
+.career-choice:hover h4 {
+    color: black;
+}
+
+.icon:hover {
+    background-color: #000;
+    cursor: pointer;
 }
 
 .career .background-stripe {
