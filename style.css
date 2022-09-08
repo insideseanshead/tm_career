@@ -311,9 +311,26 @@ footer a:hover {
 /* Management and Development */
 .dev-path {
     background: rgb(0,100,66);
-    background: linear-gradient(180deg, rgba(0,100,66,1) 57%, rgba(252,248,234,1) 57%);
+    background: linear-gradient(180deg, rgba(0,100,66,1) 60%, rgba(252,248,234,1) 60%);
     padding: 40px 0;
     text-align: center;
+}
+
+.internship {
+    position: relative;
+}
+
+.internship img {
+    width: 100%;
+    height: auto;
+    opacity: 0.2;
+}
+
+.internship .copy {
+    position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
 }
 
 .jumbotron {
