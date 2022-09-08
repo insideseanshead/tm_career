@@ -16,39 +16,37 @@
       href="https://file.myfontastic.com/fNzH493MAHeKjRe2pjuifJ/icons.css"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="https://use.typekit.net/euh7jtx.css">
+    <link rel="stylesheet" href="https://use.typekit.net/euh7jtx.css" />
     <title>Touchmark Careers</title>
   </head>
   <body>
-    <div class="container-fluid"></div>
-    
-
-    <!-- Hero -->
-    <div id="hero" class="hero">
+    <div class="container-fluid w-auto">
       <!-- Navbar -->
-    <div class="row navbar">
-      <div class="col-8 offset-2 nav-elements">
-          <a href="index.html"><img src="./images/logo.png" alt="Touchmark Logo" /></a>
+      <div class="row navbar">
+        <div class="col-8 offset-2 nav-elements">
+          <a href="index.html"
+            ><img src="./images/logo.png" alt="Touchmark Logo"
+          /></a>
           <ul class="nav-list">
             <li><a href="volunteer.html">Volunteer</a></li>
             <li><a href="management.html">Management & Development</a></li>
             <li><a href="#">Apply Now</a></li>
           </ul>
-      </div>
-    </div>
-    
-      <div class="hero-items">
-
-        <div class="logo">
-          <h1>TEAM TOUCHMARK<span class="full"></span></h1>
-          <div class="apply">
-            <button class="apply-button">Apply Now</button>
-          </div>
         </div>
       </div>
-    </div>
+      <div class="page-content">
+      <!-- Hero -->
+      <!-- <img src="./images/TM-HMT-WinterWalk-021.jpg" class="img-fluid w-auto" alt="Responsive image"> -->
+      <div class="jumbotron jumbotron-fluid">
+        <div class="jumbotron-text">
+            <h1>TEAM TOUCHMARK<span class="full"></span></h1>
+            <div class="apply">
+              <button class="apply-button">Apply Now</button>
+            </div>
+        </div>
+      </div>
 
-    <!-- Container -->
+      <!-- Intro Tag -->
       <div class="row who-we-are">
         <div class="col-8 offset-2">
           <h2>Who We Are</h2>
@@ -60,27 +58,9 @@
           </p>
         </div>
       </div>
-    
-
-      <!-- footer -->
-      <footer>
-        <div class="row">
-          <div class="col-4 offset-2">
-            <img src="./images/logo.png" alt="" />
-          </div>
-          <div class="col-4">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
-              incidunt distinctio totam est fugit officiis quas! Minus quo
-              maiores minima itaque nemo eos laborum accusantium. Velit
-              voluptatibus quaerat deleniti odit.
-            </p>
-            <p class="phone">555 555 5555</p>
-            <a href="mailto:#">Email</a>
-          </div>
-        </div>
-      </footer>
+    </div><!-- End Page Content -->
     </div>
+    <!-- End Container -->
 
     <!-- JavaScript Bundle with Popper -->
     <script
@@ -88,12 +68,18 @@
       integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
       crossorigin="anonymous"
     >
-    const myModal = document.getElementById('myModal')
-    const myInput = document.getElementById('myInput')
+            const myModal = document.getElementById('myModal')
+            const myInput = document.getElementById('myInput')
 
-    myModal.addEventListener('shown.bs.modal', () => {
-      myInput.focus()
-    })
-  </script>
+            myModal.addEventListener('shown.bs.modal', () => {
+              myInput.focus()
+            })
+
+            $(".jumbotron").css({ height: $(window).height() + "px" });
+
+      $(window).on("resize", function() {
+        $(".jumbotron").css({ height: $(window).height() + "px" });
+      });
+    </script>
   </body>
 </html>

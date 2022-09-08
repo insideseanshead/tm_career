@@ -12,6 +12,10 @@ h1 {
     color: #fff;
 }
 
+h2 {
+    font-size: 42px;
+}
+
 .full {
     color: #006442;
 }
@@ -46,17 +50,67 @@ button:hover {
 .container-fluid {
     width: 100vw;
     padding: 0 !important;
+    overflow-x: hidden;
+}
+
+.page-content {
+    position: relative;
+    top: -138px;
+}
+
+.card {
+    border: 0;
 }
 
 /* Hero */
+.jumbotron {
+    color: white;
+    background-image: url("./images/TM-HMT-WinterWalk-021.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 75vh;
+    position: relative;
+  }
+
+.management {
+    background-image: url(./images/TEOK_0522_0305.jpg) !important;
+    background-position: top !important; /* Center the image */
+}
+
+.jumbotron-text {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+}
 #hero {
     height: 75vh;
-    width: 100vw;
     background-image: url('./images/TM-HMT-WinterWalk-021.jpg');
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
     
+}
+
+#hero-benefits {
+    height: 75vh;
+    width: 100vw;
+    background-image: url('./images/TEOK_0522_0305.jpg');
+    background-repeat: no-repeat;
+    background-position: top;
+    position: relative;
+    margin-top: 0;
+}
+
+#hero-management {
+    height: 75vh;
+    width: 100vw;
+    background-image: url('./images/TM-AB-Walking1-063.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    margin-top: 0;
 }
 
 .hero-items {
@@ -75,6 +129,7 @@ button:hover {
 .navbar {
     /* background: #000; */
     background: linear-gradient(180deg, rgb(20, 64, 47) 50%, rgba(252,248,234,0) 50%);
+    z-index: 100;
 }
 
 .nav-elements {
@@ -251,4 +306,29 @@ footer a {
 footer a:hover {
     color: #8B4720;
     text-decoration: underline;
+}
+
+/* Management and Development */
+.dev-path {
+    background: rgb(0,100,66);
+    background: linear-gradient(180deg, rgba(0,100,66,1) 57%, rgba(252,248,234,1) 57%);
+    padding: 40px 0;
+    text-align: center;
+}
+
+.jumbotron {
+    color: white;
+    background-image: url("./images/TM-HMT-WinterWalk-021.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 75vh;
+    position: relative;
+  }
+
+.jumbotron-text {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
 }
