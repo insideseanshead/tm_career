@@ -53,10 +53,10 @@ button:hover {
     overflow-x: hidden;
 }
 
-.page-content {
+/* .page-content {
     position: relative;
     top: -138px;
-}
+} */
 
 .card {
     border: 0;
@@ -75,7 +75,12 @@ button:hover {
 
 .management {
     background-image: url(./images/TEOK_0522_0305.jpg) !important;
-    background-position: top !important; /* Center the image */
+    background-position: top !important;
+}
+
+.benefits {
+    background-image: url(./images/220331-124.jpg) !important;
+    background-position: top !important;
 }
 
 .jumbotron-text {
@@ -128,8 +133,10 @@ button:hover {
 /* nav */
 .navbar {
     /* background: #000; */
+    width: 100vw;
     background: linear-gradient(180deg, rgb(20, 64, 47) 50%, rgba(252,248,234,0) 50%);
     z-index: 100;
+    position: fixed;
 }
 
 .nav-elements {
@@ -338,6 +345,47 @@ footer a:hover {
   text-align: center;
 }
 
+/* Benefits Page */
+.benefits-packages {
+    background-color: #006341;
+    color: #fff;
+}
+
+.benefits-packages h2 {
+    color: #fff;
+}
+
+.benefits-packages li {
+    list-style: none;
+}
+
+.benefit-video {
+    background: rgb(0,100,66);
+    background: linear-gradient(180deg, rgba(0,100,66,1) 40%, rgba(252,248,234,1) 40%);
+    padding: 40px 0;
+}
+
+.video-column {
+    position: relative;
+    padding-bottom: calc(56.25% * 0.50); /* 16:9 */
+    width: 50%;
+    height: 0;
+}
+
+.video-column iframe {
+    position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.ben-cta {
+    height: 240px;
+    background-image: url("./images/G200357_EMRD_aerial_0608_02_1_pw21jy.jpg");
+}
+
+/* 
 .jumbotron {
     color: white;
     background-image: url("./images/TM-HMT-WinterWalk-021.jpg");
@@ -353,4 +401,4 @@ footer a:hover {
     top: 50%;
     width: 100%;
     text-align: center;
-}
+} */

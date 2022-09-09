@@ -16,50 +16,51 @@
       href="https://file.myfontastic.com/fNzH493MAHeKjRe2pjuifJ/icons.css"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="https://use.typekit.net/euh7jtx.css" />
+    <link rel="stylesheet" href="https://use.typekit.net/euh7jtx.css">
     <title>Touchmark Careers</title>
   </head>
   <body>
-    <div class="container-fluid w-auto">
+    <div class="container-fluid">
+    
+
+    <!-- Hero -->
+    <div id="hero" class="hero">
       <!-- Navbar -->
-      <div class="row navbar">
-        <div class="col-8 offset-2 nav-elements">
-          <a href="index.html"
-            ><img src="./images/logo.png" alt="Touchmark Logo"
-          /></a>
+    <div class="row navbar">
+      <div class="col-8 offset-2 nav-elements">
+          <a href="index.html"><img src="./images/logo.png" alt="Touchmark Logo" /></a>
           <ul class="nav-list">
             <li><a href="volunteer.html">Volunteer</a></li>
             <li><a href="management.html">Management & Development</a></li>
             <li><a href="#">Apply Now</a></li>
           </ul>
+      </div>
+    </div>
+    
+      <div class="hero-items">
+
+        <div class="logo">
+          <h1>TEAM TOUCHMARK<span class="full"></span></h1>
+          <div class="apply">
+            <button class="apply-button">Apply Now</button>
+          </div>
         </div>
       </div>
-      <div class="page-content">
-        <!-- Hero -->
-        <!-- <img src="./images/TM-HMT-WinterWalk-021.jpg" class="img-fluid w-auto" alt="Responsive image"> -->
-        <div class="jumbotron jumbotron-fluid">
-          <div class="jumbotron-text">
-            <h1>TEAM TOUCHMARK<span class="full"></span></h1>
-            <div class="apply">
-              <button class="apply-button">Apply Now</button>
-            </div>
-          </div>
-        </div>
+    </div>
 
-        <!-- Intro Tag -->
-        <div class="row who-we-are">
-          <div class="col-8 offset-2">
-            <h2>Who We Are</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
-              rerum quod perspiciatis ducimus odio labore quas, fugit
-              praesentium dignissimos quam iste minima, ipsum, enim modi quia!
-              Commodi sequi laudantium ad.
-            </p>
-          </div>
+    <!-- Container -->
+      <div class="row who-we-are">
+        <div class="col-8 offset-2">
+          <h2>Who We Are</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
+            rerum quod perspiciatis ducimus odio labore quas, fugit praesentium
+            dignissimos quam iste minima, ipsum, enim modi quia! Commodi sequi
+            laudantium ad.
+          </p>
         </div>
-
-        <!-- Culture -->
+      </div>
+      <!-- Culture -->
       <div class="row our-culture">
         <div class="col-6 image-left">
           <img src="./images/TBND-CRAFTS-040.jpg" class="img-fluid" alt="Responsive image">        </div>
@@ -89,7 +90,6 @@
           </div>
         </div>
       </div>
-
       <!-- Testimonials -->
       <div class="testimonials">
         <div class="row">
@@ -125,18 +125,17 @@
           ></iframe>
         </div>
         <div class="row">
-            <div class="col-6 offset-3">
-              <p class="quote">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
-                dolore expedita accusamus quod voluptatem fugiat animi
-                accusantium. Consequatur nobis harum eius eligendi saepe! Eligendi
-                fuga ut doloremque tenetur molestias ad.
-              </p>
-            </div>
+          <div class="col-6 offset-3">
+            <p class="quote">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
+              dolore expedita accusamus quod voluptatem fugiat animi
+              accusantium. Consequatur nobis harum eius eligendi saepe! Eligendi
+              fuga ut doloremque tenetur molestias ad.
+            </p>
           </div>
         </div>
-
-        <!-- career path -->
+      </div>
+      <!-- career path -->
       <div class="career">
         <div class="row">
           <div class="col"><h2>Career Paths</h2></div>
@@ -245,11 +244,10 @@
           </div>
         </div>
       </div>
-
       <!-- benefits -->
       <div class="benefits">
         <div class="row benefits-row">
-          <div class="col-md-4 offset-2 benefits-text">
+          <div class="col-4 offset-2 benefits-text">
             <h2>Benefits</h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus
@@ -263,12 +261,11 @@
             </p>
             <a href="benefits.html"><button>Learn More</button></a>
           </div>
-          <div class="col-md-6">
+          <div class="col-6">
             <img src="./images/TM-SH-0379.jpg" class="img-fluid" alt="Responsive image">        </div>
           </div>
         </div>
-      
-
+      </div>
       <!-- map -->
       <div class="map">
         <div class="row">
@@ -277,7 +274,6 @@
           </div>
         </div>
       </div>
-
       <!-- quote stripe -->
       <div class="quote-stripe">
         <div class="row">
@@ -294,7 +290,6 @@
           </div>
         </div>
       </div>
-
       <!-- social -->
       <div class="social">
         <div class="row">
@@ -325,10 +320,6 @@
           </div>
         </div>
       </footer>
-
-        <!-- End Page Content -->
-      </div>
-      <!-- End Container -->
     </div>
 
     <!-- JavaScript Bundle with Popper -->
@@ -337,18 +328,12 @@
       integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
       crossorigin="anonymous"
     >
-            const myModal = document.getElementById('myModal')
-            const myInput = document.getElementById('myInput')
+    const myModal = document.getElementById('myModal')
+    const myInput = document.getElementById('myInput')
 
-            myModal.addEventListener('shown.bs.modal', () => {
-              myInput.focus()
-            })
-
-            $(".jumbotron").css({ height: $(window).height() + "px" });
-
-      $(window).on("resize", function() {
-        $(".jumbotron").css({ height: $(window).height() + "px" });
-      });
-    </script>
+    myModal.addEventListener('shown.bs.modal', () => {
+      myInput.focus()
+    })
+  </script>
   </body>
 </html>
